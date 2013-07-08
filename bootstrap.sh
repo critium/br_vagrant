@@ -3,6 +3,8 @@
 echo "nameserver 208.67.222.222" | sudo tee /etc/resolvconf/resolv.conf.d/base > /dev/null
 sudo apt-get update
 
+# cd /vagrant
+# sudo cat vagrantjdk.bin.parts?? > vagrantjdk.bin
 # sudo cp /vagrant/vagrantjdk.bin /opt
 # sudo chmod +x /opt/vagrantjdk.bin
 # cd /opt
